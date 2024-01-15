@@ -1,0 +1,58 @@
+/* Navigation design */
+
+nav{
+    
+    gap: 10px;
+    float: right;
+    position: relative;
+    top: px;
+   
+}
+.navigation{
+    display: flex;
+    position: relative;
+    top: 2px;
+}
+.logos{
+    display: flex;
+   gap:50px;
+   padding: 20px;
+}
+.logimg{
+    padding: 20px;
+    width: 55px;
+    height: 50.008px;
+    flex-shrink: 0; 
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    float:right;
+    margin-right: 100px;
+    position: relative
+    top:20px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+nav ul li a:hover{
+    color:white;
+    background: black;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width:600px) {
+    
+}

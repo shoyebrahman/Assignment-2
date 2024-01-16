@@ -1,4 +1,6 @@
 /* Navigation design */
+    
+
 
 nav{
     
@@ -49,10 +51,116 @@ nav ul li a:hover{
 nav ul li a{
     text-decoration: none;
 }
+/* Main section Design */
+/* .second-part{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+} */
+ /*main{
+    width: 1170px;
+    height: 500px; 
+    background:url('../Images/Group\ 13\ \(1\)\ \(1\).png')
+    border-radius: 16px;
+   
 
+} */
+ .img-one{
+    padding: 5px;
+    width: 22170px;
+    height: 00px;
+    flex-shrink: 0; 
+    margin-left: 20%;
+    
+} 
+.text{
+    font-size: 70px;
+    margin-left: 4%;
+    color: white;
+}
+.from{
+    gap:15px;
+    display: inline-flex;
+    margin: 2%;
+    size: 100px;
+    margin-left: 10%;
+    width: 600px;
+    height: 50px;
+}
+.btn:hover{
+    background-color:blue;
+    color:white;
+}
+.btn{
+    background: #FF5400;
+}
+
+.first-text{
+    display: ;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 30%;
+}
+/* part three design */
+.btn-two:hover{
+    background-color: aqua;
+}
+.btn-two{
+    background: #FF5400;
+    width: 174px;
+    height: 52px; 
+}
+.our-popular:hover{
+    background: #FFF;
+    border-radius: 0%;
+    border-style: solid;
+}
+.our-popular{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.img-three{
+    display: flex;
+    margin-top: 11%;
+}
+.simg{
+    display: flex;
+    gap: 100px;
+}
+
+/* 4th part design */
+.chose-your{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+.first-row{
+    display: flex;
+    margin-left: 10%;
+    gap:20px;
+}
+.second-row{
+    display: flex;
+    margin-left: 10%;
+    gap:20px;
+}
+.thard-row{
+    display: flex;
+    margin-left: 10%;
+    gap:20px;
+}
+.many-img{
+    margin-left: 12%;
+}
 
 
 /* Responsive Design */
 @media screen and (max-width:600px) {
     
+}
+/* Tablet device */
+@media screen and (min-width:576px) and (max-width: 960px) {
+
 }

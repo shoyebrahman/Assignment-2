@@ -154,8 +154,105 @@ nav ul li a{
 .many-img{
     margin-left: 12%;
 }
+.why{
+    margin-left: 40%;
 
-
+}
+.first-icon{
+    margin-left: 5%;
+}
+.first-icon:hover{
+    width: 573px;
+    height: 284px; 
+    background: #FFF;
+    border-radius: 0%;
+    border-style: solid;
+}
+.icon-two{
+    margin-left: 5%;
+}
+.icon-two:hover{
+    width: 573px;
+    height: 284px; 
+    background: #FFF;
+    border-radius: 0%;
+    border-style: solid;
+}
+.icon{
+    display:flex;
+    margin-left: 20%;
+    gap:50px;
+}
+.icon-three{
+    margin-left: 35%;
+}
+.icon-three:hover{
+    width: 573px;
+    height: 284px; 
+    background: #FFF;
+    border-radius: 0%;
+    border-style: solid;
+}
+/* Newsletter Design */
+.btn-four{
+    background: #FF5400;
+    width: 174px;
+    height: 52px; 
+}
+.btn-four:hover{
+    background: #FF5400;
+}
+.fromm{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05); 
+}
+.from-two{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0; 
+    gap:50px;
+}
+.news{
+    margin-left: 10%;
+}
+.imageimg .travel-com{
+    color: white;
+    position:relative;
+    width: 320px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    background: #FF5400;
+    right: -320px;
+    top: -150px;
+    transform: rotate(-19deg);
+}
+.newsletter{
+    display: flex;
+    margin-left: 15%;
+}
+/* footer section design */
+footer{
+    padding: 7cqmin;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-logos{
+    margin-left: 20%;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+footer .footer-logos img{
+    font-size: 205%;
+    margin-right: 15px;
+    width: px;
+    height: 40px; 
+}
 /* Responsive Design */
 @media screen and (max-width:600px) {
     
